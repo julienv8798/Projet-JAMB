@@ -11,6 +11,36 @@ Version: 1.0
 /* Parent stylesheet should be loaded from functions.php not using @import */
 
 
+
+
+
 .wpforms-field-label {
     color: white;
+}
+
+body div.wpforms-container-full .wpforms-form input[type=text]
+{
+    border-radius: 0 !important;
+}
+
+body div.wpforms-container-full .wpforms-form input[type=Email]
+{
+    border-radius: 0 !important;
+}
+
+body div.wpforms-container-full .wpforms-form textarea
+{
+    border-radius: 0 !important;
+}
+
+body div.wpforms-container-full .wpforms-form button[type=submit]{
+    background-color: white !important;
+    border-radius: 0 !important;
+    color: black !important;
+    display: block !important;
+    margin: auto !important;
+}
+
+.elementor-widget-icon-box.elementor-position-left .elementor-icon-box-wrapper{
+      align-content: center !important;
 }
